@@ -2,6 +2,12 @@
 
 Aplicação full-stack para rankings da comunidade brasileira de jogadores de Star Wars Battlefront II no Xbox. Usa Next.js App Router, Supabase Auth/PostgreSQL, RLS e Vercel.
 
+## Sobre o projeto
+
+Este projeto foi criado por **Aurelliuz**, também conhecido como **Maestro** na comunidade e no Xbox.
+
+O objetivo é servir como uma experiência de aprendizado no desenvolvimento de uma aplicação full-stack e, ao mesmo tempo, proporcionar diversão entre amigos e colegas da comunidade de Star Wars Battlefront II.
+
 ## Pré-requisitos
 
 - Node.js 22+ e npm 10+
