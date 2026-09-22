@@ -1,0 +1,2 @@
+import {describe,expect,it} from "vitest";import {parsePlayersCsv} from "@/lib/csv";
+describe("importação CSV",()=>{it("lê linhas válidas e cabeçalho",()=>{const result=parsePlayersCsv("gamertag;display_name;bio\nAlpha;Alfa;Bom jogador\nBravo;;");expect(result.issues).toEqual([]);expect(result.rows).toHaveLength(2);});it("informa linha e limita a 100 jogadores",()=>{expect(parsePlayersCsv("x;sem\n").issues[0]?.line).toBe(1);const csv=Array.from({length:101},(_,i)=>`p${i};nome;bio`).join("\n");expect(parsePlayersCsv(csv).issues[0]?.error).toMatch(/100/);});});
