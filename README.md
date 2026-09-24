@@ -4,7 +4,7 @@ Aplicação full-stack para rankings da comunidade brasileira de jogadores de St
 
 ## Sobre o projeto
 
-Este projeto foi criado por **Aurelliuz**, também conhecido como **Maestro** na comunidade e no Xbox.
+Este projeto foi criado por ***Aurelliuz** (nick no Xbox).
 
 O objetivo é servir como uma experiência de aprendizado no desenvolvimento de uma aplicação full-stack e, ao mesmo tempo, proporcionar diversão entre amigos e colegas da comunidade de Star Wars Battlefront II.
 
